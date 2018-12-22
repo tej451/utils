@@ -1,0 +1,25 @@
+
+plugins {
+    id "java"
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+  compile ("com.oracle:ojdbc6:11.2.0.4")
+    testCompile 'junit:junit:4.7'
+    
+    compile "org.springframework.boot:spring-boot:2.+"
+    compile 'org.springframework.amqp:spring-rabbit:2.+'
+    
+}
+
+
+ 
+task wrapper(type: Wrapper) {
+     gradleVersion = '4.5'
+ }
+
