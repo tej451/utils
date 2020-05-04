@@ -13,7 +13,8 @@ dependencies {
     testCompile 'junit:junit:4.7'
     
     compile "org.springframework.boot:spring-boot:2.+"
-    compile 'org.springframework.amqp:spring-rabbit:2.+'
+    //compile 'org.springframework.amqp:spring-rabbit:2.+'
+     compile 'org.springframework.amqp:spring-rabbit:1.5.1.RELEASE'
     
 }
 
